@@ -24,7 +24,7 @@ namespace FaceDetectApiSdkDemo
             }
         }
 
-        static IFaceServiceClient CreateFaceClient() => new FaceServiceClient("<SubscriptionKey>", "https://eastasia.api.cognitive.microsoft.com/face/v1.0");
+        static IFaceServiceClient CreateFaceClient() => new FaceServiceClient("<SubscriptionKeys>", "https://eastasia.api.cognitive.microsoft.com/face/v1.0");
         
 
     }
